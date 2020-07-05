@@ -11,3 +11,13 @@
     - minor side note: const member functions may read, but not write to the data members of the object on which it is called.
         - it is added after the function paramemters, before the body. 
     - member function can be defined (NOT declared) outside of the class function, but must use a scope operator :: to indicate that the function defined is a member function of certain class. 
+    
+- constructors
+    - initialize the data members of a class object. 
+    - if no constructor is defined, then the compiler will generate a default constrctor 
+        - it will default initialize all members
+    - there can be multiple constructors (same as overloading the same function with different parameters)
+- struct vs class
+    - default access level for struct is public
+    - default access level for class is private
+    
